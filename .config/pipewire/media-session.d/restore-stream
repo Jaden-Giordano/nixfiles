@@ -1,0 +1,22 @@
+{
+  "restore.stream.Output/Audio.application.name:win10": { "volume": 1.000000, "mute": false, "volumes": [ 0.705403, 0.705403 ], "channels": [ "FL", "FR" ] },
+  "restore.stream.Input/Audio.application.name:win10": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "FL", "FR" ] },
+  "restore.stream.Output/Audio.application.name:Chromium": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "FL", "FR" ] },
+  "restore.stream.Output/Audio.application.name:WEBRTC VoiceEngine": { "volume": 1.000000, "mute": false, "volumes": [ 1.127617, 1.127617 ], "channels": [ "FL", "FR" ] },
+  "restore.stream.Input/Audio.application.name:WEBRTC VoiceEngine": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "FL", "FR" ] },
+  "restore.stream.Input/Audio.application.name:PulseAudio Volume Control": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "FL", "FR" ] },
+  "restore.stream.Output/Audio.application.name:Firefox": { "volume": 1.000000, "mute": false, "volumes": [ 0.000000, 0.000000 ], "channels": [ "FL", "FR" ] },
+  "restore.stream.Output/Audio.media.role:tphonon.streamid": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "FL", "FR" ] },
+  "restore.stream.Output/Audio.media.role:Music": { "volume": 1.000000, "mute": false, "volumes": [ 0.218305, 0.218305 ], "channels": [ "FL", "FR" ] },
+  "restore.stream.Output/Audio.application.name:dota2": { "volume": 1.000000, "mute": false, "volumes": [ 0.529277, 0.529277 ], "channels": [ "FL", "FR" ] },
+  "restore.stream.Input/Audio.media.role:tphonon.streamid": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "FL", "FR" ] },
+  "restore.stream.Output/Audio.application.name:Google Chrome": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "FL", "FR" ] },
+  "restore.stream.Output/Audio.application.name:Civ6Sub": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000 ], "channels": [ "FL", "FR", "FC", "LFE", "RL", "RR" ] },
+  "restore.stream.Output/Audio.media.role:Movie": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "FL", "FR" ] },
+  "restore.stream.Output/Audio.application.name:starbase.exe": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "FL", "FR" ] },
+  "restore.stream.Input/Audio.application.name:starbase.exe": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "FL", "FR" ] },
+  "restore.stream.Output/Audio.application.name:Humankind.exe": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "FL", "FR" ] },
+  "restore.stream.Input/Audio.application.name:Humankind.exe": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "FL", "FR" ] },
+  "restore.stream.Output/Audio.application.name:ZFGameBrowser.exe": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "FL", "FR" ] },
+  "restore.stream.Input/Audio.application.name:ZFGameBrowser.exe": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "FL", "FR" ] }
+}

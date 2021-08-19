@@ -1,0 +1,14 @@
+font:
+  normal:
+    family: FiraCode Nerd Font
+
+background_opacity: 0.85
+
+window:
+  padding:
+    x: 18
+    y: 12
+
+key_bindings:
+  - { key: V, mods: Super, action: Paste }
+  - { key: C, mods: Super, action: Copy }

@@ -1,0 +1,12 @@
+{
+  "default.route.alsa_card.pci-0000_0f_00.1:profile:off": [ ],
+  "default.route.alsa_card.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00:profile:off": [ ],
+  "default.route.alsa_card.pci-0000_11_00.4:profile:off": [ ],
+  "default.route.alsa_card.pci-0000_0f_00.1:profile:output:hdmi-stereo": [ "hdmi-output-0" ],
+  "default.route.alsa_card.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00:profile:output:analog-stereo+input:analog-stereo": [ "analog-input-headset-mic", "analog-output" ],
+  "default.route.alsa_card.pci-0000_11_00.4:profile:output:analog-stereo": [ ],
+  "default.route.alsa_card.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00:input:analog-input-headset-mic": { "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "FL", "FR" ] },
+  "default.route.alsa_card.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00:output:analog-output": { "mute": false, "volumes": [ 0.045392, 0.045392 ], "channels": [ "FL", "FR" ] },
+  "default.route.alsa_card.pci-0000_0f_00.1:output:hdmi-output-0": { "mute": false, "volumes": [ 0.399992, 0.399992 ], "channels": [ "FL", "FR" ] },
+  "default.route.alsa_card.pci-0000_0f_00.1:profile:output:hdmi-stereo-extra4": [ ]
+}

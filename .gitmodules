@@ -1,0 +1,3 @@
+[submodule ".config/nixpkgs/doom.d"]
+	path = .config/nixpkgs/doom.d
+	url = https://github.com/Jaden-Giordano/.doom.d

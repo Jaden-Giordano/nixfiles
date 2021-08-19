@@ -1,0 +1,68 @@
+{
+    "layer": "top",
+    "position": "top",
+    "modules-left": ["sway/workspaces", "custom/media"],
+    "modules-right": ["cpu", "memory", "temperature", "network", "pulseaudio", "clock", "custom/quit"],
+    "sway/workspaces": {
+      "format": "{name} {icon}",
+      "format-icons": {
+        "1": "爵",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "力",
+      },
+    },
+    "clock": {
+        "format": " {:%I:%M %p}",
+        "format-alt": " {:%a %b %d}",
+        "tooltip": false
+    },
+    "network": {
+        "format": "{ifname}",
+        "format-wifi": " {essid}",
+        "format-ethernet": "ﯱ {ifname}",
+        "format-disconnected": "",
+        "tooltip-format-wifi": "{signalStrength}%",
+        "max-length": 20
+    },
+    "custom/media": {
+        "format": "{}",
+        "interval": 2,
+        "exec": "$HOME/.config/waybar/get_media.sh",
+        "on-click": "playerctl play-pause"
+    },
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-bluetooth": "{icon} {volume}%",
+        "format-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", ""]
+        },
+        "scroll-step": 2,
+        "on-click": "pavucontrol"
+    },
+    "cpu": {
+        "interval": 5,
+        "format": " {usage}% ({load})"
+    },
+    "memory": {
+        "interval": 5,
+        "format": " {}%"
+    },
+    "temperature": {
+        "critical-threshold": 80,
+        "format": "﨎 {temperatureC} °C"
+    },
+    "custom/quit": {
+        "format": "襤",
+        "on-click": "swaynag -f 'FiraMono Nerd Font'  -t warning -m 'Do you really want to exit sway?' -b 'Yes, exit sway' 'swaymsg exit'"
+    }
+}
+
